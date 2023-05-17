@@ -155,7 +155,7 @@ engine:
     - condition: "#buildTool == 'maven'"
       merge:
         - type: InvokeFragment
-          reference: live-update
+          reference: live-update-vrabbi
         - include: [ "**" ]
       onConflict: UseFirst
 
