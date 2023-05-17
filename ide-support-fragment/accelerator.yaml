@@ -13,8 +13,6 @@ accelerator:
       label: The source image repository prefix to use when pushing the source
       description: The prefix for the source image repository where source can be stored during development
       defaultValue: harbor.vrabbi.cloud/library
-      dependsOn:
-        name: liveUpdateIDESupport
 
     - name: targetCluster
       inputType: select
@@ -26,8 +24,6 @@ accelerator:
       - value: "kind-kind"
         text: Local Dev Environment
       defaultValue: "tap-cls-01-admin@tap-cls-01"
-      dependsOn:
-        name: liveUpdateIDESupport
 
 engine:
   merge:
