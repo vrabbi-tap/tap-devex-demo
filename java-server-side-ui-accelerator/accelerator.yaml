@@ -39,7 +39,7 @@ accelerator:
     - name: includeAppSsoIntegration
       label: Include AppSSO (OIDC) integration?
       dataType: boolean
-      defaultValue: true
+      defaultValue: false
   imports:
     - name: app-sso-client
       expose:
